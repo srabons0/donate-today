@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header  */
+.head {
+    background-image: url(images/donation13.jpg);
+    text-align: center;
+    color: aliceblue;
+    padding: 150px;
+    background-repeat: no-repeat;
+    contain: content;
+    background-size: cover;
+}
+
+.title {
+    font-size: 90px;
+    padding: 150px 180px 35px 180px;
+}
+
+.lorem {
+    font-size: 30px;
+    padding: 0px 250px 35px 250px;
+}
+
+.button {
+    padding: 20px 35px 20px 35px;
+    border-radius: 10px;
+    background-color: rgba(250, 78, 66, 0.948);
+    border: 0;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+/* main  */
+/* donating */
+.donating {
+    text-align: center;
+}
+
+.donatetoday {
+    font-size: 65px;
+    padding: 100px 0px 20px 0px;
+}
+
+.ipsum {
+    font-size: 30px;
+    color: lightslategray;
+    padding: 0px 450px 100px 450px;
+}
+
+.amaunt {
+    font-size: 40px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.tk {
+    padding: 30px 15px 30px 15px;
+    background-color: #e2e2e253;
+    color: #757575;
+}
+
+.other {
+    padding: 100px 0 8px 0;
+    font-size: 18px;
+    color: #d1cfcf;
+}
+
+#but {
+    margin: 30px 0 150px 0;
+}
+
+/* our donate plan */
+.ourdonate {
+    font-size: 65px;
+    text-align: center;
+    padding: 10px 0 20px 0;
+}
+
+.dolor {
+    font-size: 30px;
+    color: lightslategray;
+    padding: 0px 450px 100px 450px;
+    text-align: center;
+}
+
+.ourdonateplan {
+    display: flex;
+    gap: 25px;
+    margin: 0 250px 0 250px;
+}
+
+.plan {
+    font-size: 35px;
+    font-weight: 700;
+    padding: 40px 17px 20px 10px;
+}
+
+.text {
+    font-size: 25px;
+    padding: 10px;
+    color: #757575;
+}
+
+.first {
+    padding: 60px 80px 40px 20px;
+    background-color: rgba(132, 168, 170, 0.234);
+    border-radius: 5px;
+
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+
+.second {
+    padding: 60px 80px 40px 20px;
+    background-color: rgba(241, 196, 218, 0.368);
+    border-radius: 5px;
+
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.third {
+    padding: 60px 80px 40px 20px;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* Their lives depend on your donation */
+
+.theirlives{display: flex; gap: 100px;}
+
+
+
+.lives{margin: 200px 400px 0 0;width: 600px;height: 600px;}
+.their {
+    font-size: 65px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 200px 0px 30px 250px;
+}
+
+.font {
+    font-size: 30px;
+    color: #757575;
+    margin: 0px 0px 30px 250px;
+}
+
+#butto {
+    margin-left: 250px;
+    font-size: 25px;
+}
+
+/* They need us to suvive */
+.theyneedus {
+    margin: 200px 0 200px 250px;
+    display: flex;
+    gap: 100px;
+    
+}
+
+.donated {
+    width: 600px;
+    height: 600px;
+}
+
+.they {
+    font-size: 65px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 550px 0 0;
+}
+
+.need {
+    font-size: 30px;
+    color: #757575;
+    margin: 0 300px 40px 0;
+}
+
+.how {
+    padding: 20px 35px 20px 35px;
+    border-radius: 10px;
+    background-color: rgba(250, 78, 66, 0.948);
+    border: 0;
+    color: aliceblue;
+    font-size: 25px;
+}
+#get{text-align: center;}
+.email{padding: 5px 20px 5px 20px; width: 430px;height: 70px;font-size: 20px;color: #757575;background-color: #c8c8c8b0;border-radius: 10px;border: 0;}
+.form{padding: 100px 110px 110px 200px;background-color: rgba(250, 242, 195, 0.864);margin:0 400px 100px 450px;display: flex;}
+.submit{height: 70px;width: 180px; gap: 0;margin: 0;border: 0;font-size: 20px;background-color:rgba(250, 78, 66, 0.948);color: aliceblue;border-radius: 10px;}
