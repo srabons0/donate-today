@@ -5,90 +5,247 @@
     font-family: 'Roboto', sans-serif;
 }
 
-@media screen and (max-width:576px) 
-    {.amaunt,.form ,.theirlives,.theyneedus ,.ourdonateplan{flex-direction: column;}
+@media screen and (max-width:576px) {
 
-    #dolor{    padding: 0px 0px 100px 0px; font-size: 20px;}
+    .amaunt,
+    .form,
+    .theirlives,
+    .theyneedus,
+    .ourdonateplan {
+        flex-direction: column;
+    }
 
-    .theirlives{flex-direction: column-reverse;gap: 50px;}
+    #dolor {
+        padding: 0px 0px 100px 0px;
+        font-size: 20px;
+    }
 
-.lives,.donated{width: 80%; margin: 50px 0 0 20px;}
+    .theirlives {
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
 
-.font,.need{margin: 0px 0px 30px 25px;width: 80%;}
+    .lives,
+    .donated {
+        width: 80%;
+        margin: 50px 0 0 20px;
+    }
 
-.their,.they{margin: 0px 0px 30px 25px;width: 70%; font-size: 30px;}
+    .font,
+    .need {
+        margin: 0px 0px 30px 25px;
+        width: 80%;
+    }
 
-#butto,.how { margin-left: 25px;}
+    .their,
+    .they {
+        margin: 0px 0px 30px 25px;
+        width: 70%;
+        font-size: 30px;
+    }
 
- .form{  background-color: rgba(250, 242, 195, 0.864);color: #757575;display: flex;flex-direction: row; justify-content: center; padding: 50px 60px 60px 80px;margin: 50px 0px 100px 0px;}
+    #butto,
+    .how {
+        margin-left: 25px;
+    }
 
-.email {padding: 5px 20px 5px 20px;width: 180px; height: 40px;  font-size: 20px; background-color: #c8c8c8b0;border: 0;
-     border-radius :5px 0 0 5px;}
+    .form {
+        background-color: rgba(250, 242, 195, 0.864);
+        color: #757575;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 50px 60px 60px 80px;
+        margin: 50px 0px 100px 0px;
+    }
 
-   .submit {height: 40px;width: 65px;gap: 0;margin: 0;border: 0;font-size: 12px;background-color: rgba(250, 78, 66, 0.948);color: aliceblue;border-radius: 0 5px 5px 0;position: relative;left: -10px;bottom: 3px;}
+    .email {
+        padding: 5px 20px 5px 20px;
+        width: 180px;
+        height: 40px;
+        font-size: 20px;
+        background-color: #c8c8c8b0;
+        border: 0;
+        border-radius: 5px 0 0 5px;
+    }
 
-   .humble{padding: 50px 0 30px 0px;}
-  
-    .gonna{padding: 0 0 60px 0 ;}
-   
-    .rh{width:200px;margin-left: 95px;}
+    .submit {
+        height: 40px;
+        width: 65px;
+        gap: 0;
+        margin: 0;
+        border: 0;
+        font-size: 12px;
+        background-color: rgba(250, 78, 66, 0.948);
+        color: aliceblue;
+        border-radius: 0 5px 5px 0;
+        position: relative;
+        left: -10px;
+        bottom: 3px;
+    }
 
-.head{background-position: center;background-repeat: no-repeat;background-size: cover;color: aliceblue;}
+    .humble {
+        padding: 50px 0 30px 0px;
+    }
 
-.lorem { font-size: 15px;padding: 0 15px 30px 15px;}
+    .gonna {
+        padding: 0 0 60px 0;
+    }
 
-.title {font-size: 30px; padding: 50px  10px 35px 10px;}
-    
-.button{margin: 0 15px 40px 15px; padding: 8px 20px 8px 20px;  border-radius: 5px;  font-size:15px;}   
+    .rh {
+        width: 200px;
+        margin-left: 95px;
+    }
+
+    .head {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: aliceblue;
+    }
+
+    .lorem {
+        font-size: 15px;
+        padding: 0 15px 30px 15px;
+    }
+
+    .title {
+        font-size: 30px;
+        padding: 50px 10px 35px 10px;
+    }
+
+    .button {
+        margin: 0 15px 40px 15px;
+        padding: 8px 20px 8px 20px;
+        border-radius: 5px;
+        font-size: 15px;
+    }
 
 
 }
 
 
-@media screen and (min-width:577px)  {
-    .dolor{    padding: 0px 450px 100px 450px;}
+@media screen and (min-width:577px) {
+    .dolor {
+        padding: 0px 450px 100px 450px;
+    }
 
-    .ourdonateplan{ margin: 0 250px 0 250px;}
+    .ourdonateplan {
+        margin: 0 250px 0 250px;
+    }
 
-    .theirlives,.theyneedus { justify-content: space-between; gap: 140px;}
+    .theirlives,
+    .theyneedus {
+        justify-content: space-between;
+        gap: 140px;
+    }
 
-    .lives {height: 400px;  margin: 200px 400px 0 0; width: 500px;}
+    .lives {
+        height: 400px;
+        margin: 200px 400px 0 0;
+        width: 500px;
+    }
 
-    .donated{margin: 80px 0px 30px 240px;width: 500px; height: 400px;}
+    .donated {
+        margin: 80px 0px 30px 240px;
+        width: 500px;
+        height: 400px;
+    }
 
-    .they{margin: 80px 350px 30px 0;}
+    .they {
+        margin: 80px 350px 30px 0;
+    }
 
-    .need{margin: 30px 200px 30px 0;}
+    .need {
+        margin: 30px 200px 30px 0;
+    }
 
-   .texxt {padding: 0px 420px 100px 420px;}
+    .texxt {
+        padding: 0px 420px 100px 420px;
+    }
 
-    .their { margin: 200px 0px 30px 250px;}    
+    .their {
+        margin: 200px 0px 30px 250px;
+    }
 
-    .font {margin: 0px 0px 30px 250px;width: 450px;}
-    
-    #butto {margin-left: 250px;}
+    .font {
+        margin: 0px 0px 30px 250px;
+        width: 450px;
+    }
 
-    .form {padding: 100px 110px 110px 200px;margin: 0 250px 100px 300px;background-color: rgba(250, 242, 195, 0.864);color: #757575;display:  flex; flex-direction: row;justify-content: center;}
+    #butto {
+        margin-left: 250px;
+    }
 
-    .email {padding: 5px 20px 5px 20px;width: 360px;height: 60px;font-size: 20px;border: 0;background-color: #c8c8c8b0;
-      border-radius :5px 0 0 5px; }
+    .form {
+        padding: 100px 110px 110px 200px;
+        margin: 0 250px 100px 300px;
+        background-color: rgba(250, 242, 195, 0.864);
+        color: #757575;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 
-    .submit {height: 60px;width: 140px;gap: 0;margin: 0;border: 0;font-size: 20px;background-color: rgba(250, 78, 66, 0.948);color: aliceblue;border-radius: 0 5px 5px 0;position: relative;left: -10px;}
+    .email {
+        padding: 5px 20px 5px 20px;
+        width: 360px;
+        height: 60px;
+        font-size: 20px;
+        border: 0;
+        background-color: #c8c8c8b0;
+        border-radius: 5px 0 0 5px;
+    }
 
-    .humble{padding: 100px 0 30px 0px;}
+    .submit {
+        height: 60px;
+        width: 140px;
+        gap: 0;
+        margin: 0;
+        border: 0;
+        font-size: 20px;
+        background-color: rgba(250, 78, 66, 0.948);
+        color: aliceblue;
+        border-radius: 0 5px 5px 0;
+        position: relative;
+        left: -10px;
+    }
 
-    .gonna{padding: 0 0 100px 0 ;}
-   
-    .ipsum {  padding: 0px 450px 100px 450px;}
+    .humble {
+        padding: 100px 0 30px 0px;
+    }
 
-    .rh{margin-left: 450px;width:650px;}
+    .gonna {
+        padding: 0 0 100px 0;
+    }
 
-    .title {padding: 150px 180px 35px 180px;font-size: 60px;}
+    .ipsum {
+        padding: 0px 450px 100px 450px;
+    }
 
-    .lorem {font-size: 20px;padding: 0px 250px 35px 250px;}
-    
-    .head{ background-repeat: no-repeat;background-size: cover; padding: 150px;color: aliceblue;  contain: content;  }
-  
+    .rh {
+        margin-left: 450px;
+        width: 650px;
+    }
+
+    .title {
+        padding: 150px 180px 35px 180px;
+        font-size: 60px;
+    }
+
+    .lorem {
+        font-size: 20px;
+        padding: 0px 250px 35px 250px;
+    }
+
+    .head {
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 150px;
+        color: aliceblue;
+        contain: content;
+    }
+
     .title {
         font-size: 60px;
         padding: 150px 180px 35px 180px;
@@ -98,8 +255,12 @@
         font-size: 20px;
         padding: 0px 250px 35px 250px;
     }
+
     .button {
-        padding: 20px 35px 20px 35px; border-radius: 10px;   font-size: 20px;}
+        padding: 20px 35px 20px 35px;
+        border-radius: 10px;
+        font-size: 20px;
+    }
 
 
 }
@@ -107,22 +268,28 @@
 
 
 
-body{min-height: 100vh;width: 100vw;background-color: white;overflow-x: hidden;}
+body {
+    min-height: 100vh;
+    width: 100vw;
+    background-color: white;
+    overflow-x: hidden;
+}
+
 /* header  */
 .head {
     background-image: url(images/donation13.jpg);
     text-align: center;
-    
-   
-   
+
+
+
 }
 
 
 
 
 .button {
-   
-    
+
+
     background-color: rgba(250, 78, 66, 0.948);
     border: 0;
     color: aliceblue;
@@ -143,7 +310,7 @@ body{min-height: 100vh;width: 100vw;background-color: white;overflow-x: hidden;}
 .ipsum {
     font-size: 20px;
     color: lightslategray;
-  
+
 }
 
 .amaunt {
@@ -153,7 +320,11 @@ body{min-height: 100vh;width: 100vw;background-color: white;overflow-x: hidden;}
     justify-content: center;
     gap: 24px;
 }
-.rh{text-align:center;border-top: 1px solid #d1cfcf;}
+
+.rh {
+    text-align: center;
+    border-top: 1px solid #d1cfcf;
+}
 
 .tk {
     padding: 30px 15px 30px 15px;
@@ -188,7 +359,7 @@ body{min-height: 100vh;width: 100vw;background-color: white;overflow-x: hidden;}
 .ourdonateplan {
     display: flex;
     gap: 25px;
-   
+
 }
 
 .plan {
@@ -231,36 +402,45 @@ body{min-height: 100vh;width: 100vw;background-color: white;overflow-x: hidden;}
 /* Their lives depend on your donation */
 
 
-.theirlives,.theyneedus {
+.theirlives,
+.theyneedus {
     display: flex;
-    
+
 }
 
 
 .lives {
-   border-radius: 5px;
+    border-radius: 5px;
 }
 
-.their,.they {
+.their,
+.they {
     font-size: 45px;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   
+
 }
 
-.font,.need {
+.font,
+.need {
     font-size: 20px;
     color: #757575;
-    
+
 }
 
 #butto {
-    
+
     font-size: 20px;
 }
-.donated{ border-radius: 5px; }
 
-.how{ font-size: 20px;}
+.donated {
+    border-radius: 5px;
+}
+
+.how {
+    font-size: 20px;
+}
+
 /* They need us to suvive */
 /* .theyneedus {
     margin: 80px 0 200px 200px;
@@ -301,14 +481,27 @@ body{min-height: 100vh;width: 100vw;background-color: white;overflow-x: hidden;}
 }
 
 
-.texxt{ font-size: 20px;
+.texxt {
+    font-size: 20px;
     color: lightslategray;
-  }
+}
 
 
 
 
-.end-line{background-color: black;text-align: center;}
-.humble{color: rgb(255, 110, 110);font-size: 45px;font-family: 'Dancing Script', cursive ;
-   font-weight: bolder;}
-.gonna{color: #757575;font-size: 17px;}
+.end-line {
+    background-color: black;
+    text-align: center;
+}
+
+.humble {
+    color: rgb(255, 110, 110);
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+}
+
+.gonna {
+    color: #757575;
+    font-size: 17px;
+}
